@@ -31,11 +31,7 @@ trait InstallLivewireStack
         $this->components->info('Start install required composer packages ');
         $this->requireComposerPackages(installLivewireStack::$COMPOSER_PACKAGE);
         $this->components->info('End install required composer packages ');
-        try {
-            $this->callSilent('vendor:publish', ['--tag' => 'Spatie\Permission\PermissionServiceProvider', '--force' => true]);
-        } catch (\Throwable $th) {
-            //throw $th;
-        }
+       
 
 
 
