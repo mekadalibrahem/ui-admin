@@ -1,0 +1,19 @@
+{
+    "name": "mekadalibrahem/ui-admin",
+    "description": "package provide admin dashboard  with GUI design",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mekadalibrahem\\UiAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mekadalibrahem",
+            "email": "mekadalibrahem123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true ,
+    "require": {}
+}
