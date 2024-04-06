@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mekadalibrahem\\Uiadmin\\": "src/"
+            "Mekadalibrahem\\Uiadmin\\": "src/" ,
+            "Mekadalibrahem\\Uiadmin\\Tests\\" : "tests"
         }
     },
     "authors": [
@@ -20,6 +21,9 @@
         "orchestra/testbench": "^9",
         "phpunit/phpunit": "^10.0"
     },
+    "scripts": { 
+        "test": "vendor/bin/phpunit"
+     },
     "extra" : {
         "laravel" : {
             "providers" :[
